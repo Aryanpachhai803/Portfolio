@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.face{
+    height: 400px;
+    width: 50%;
+    float: left;
+    background-size: cover;
+}
+#faceLeft{
+    background-image: url(1Animate.png);
+}
+#faceRight{
+    background-image: url(3Animate.png);
+    background-position: 100% 0;
+}
+.faces{
+    position: absolute;
+    left: 22%;
+}
+.text{
+    position: absolute;
+    padding: 20px;
+    top: 40%;
+    z-index: 3;
+}
+#text1{
+    left: 50px;
+}
+#text2{
+    right: 50px;
+}
