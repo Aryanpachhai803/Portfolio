@@ -6,10 +6,10 @@ navbarToggle.addEventListener('click', ()=>{
     navbarMenu.classList.toggle('active');
 })
 
-var screenWidth = faces.offsetWidth;
+var screenWidth = screen.width - 100;
 var faceLeft = document.getElementById("faceLeft");
 var faceRight = document.getElementById("faceRight"); 
-var faces = document.querySelector("faces");
+var faces = document.getElementById("faces");
 let fourthWidth = (screenWidth/4)
 faceLeft.style.width = fourthWidth;
 faceRight.style.width = fourthWidth;
