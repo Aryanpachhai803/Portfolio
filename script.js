@@ -1,7 +1,15 @@
-var screenWidth = screen.width - 100;
+const navbarToggle = document.querySelector(".navbar-toggle");
+const navbarMenu = document.querySelector(".navbar-menu");
+
+navbarToggle.addEventListener('click', ()=>{
+    navbarToggle.classList.toggle('active');
+    navbarMenu.classList.toggle('active');
+})
+
+var screenWidth = faces.offsetWidth;
 var faceLeft = document.getElementById("faceLeft");
 var faceRight = document.getElementById("faceRight"); 
-var faces = document.getElementById("faces");
+var faces = document.querySelector("faces");
 let fourthWidth = (screenWidth/4)
 faceLeft.style.width = fourthWidth;
 faceRight.style.width = fourthWidth;
@@ -77,3 +85,4 @@ function getMouseDirection(e){
     pervX = currentX;
     return dir;
 }
+
