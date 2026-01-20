@@ -17,7 +17,7 @@ body{
     width: 100%;
     position: sticky;
     top: 0;
-    background: transparent;
+    background: linear-gradient(to right,#00093c,#2d0b00);;
     box-shadow: 0 10px 20px rgba(0,0,0,0.5);
     backdrop-filter: blur(10px);
     z-index: 10;
@@ -129,6 +129,10 @@ body{
 /*------------------------------Des And Dev Interface-------------------------------*/
 
 .container{
+    min-height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     box-shadow: 0 10px 10px rgba(0,0,0,0.5);
 }
 .face{
@@ -150,31 +154,44 @@ body{
 }
 .text{
     position: absolute;
-    padding: 20px;
-    top: 25%;
+    top: 35%;
     z-index: 3;
 }
 #text1{
     font-size: 20px;
     font-weight: 100;
     left: 50px;
+    width: 20vw;
 }
 #text2{
     font-size: 20px;
     font-weight: 100;
     right: 50px;
+    width: 20vw;
 }
 
+/*--------------------------------Skills--------------------------*/
 
+/* .skills-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #00093c;
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    gap: 30px;
+    height: max-content;
+    width: max-content;
+    border-radius: 20px;
+} */
+ 
 /*--------------------------------Footer--------------------------*/
 
 footer{
     width: 100%;
     position: absolute;
-    bottom: 0;
     background: linear-gradient(to right,#00093c,#2d0b00);
     color: #fff;
-    padding: 100px 0 30px;
+    padding: 10px 0 30px;
     border-top-left-radius: 125px;
     font-size: 13px;
     line-height: 20px;
