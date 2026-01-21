@@ -194,6 +194,7 @@ body{
     transform: translate(-50%, -50%);
     height: 400px;
     display: flex;
+    overflow: hidden;
 }
 
 .face {
@@ -205,11 +206,12 @@ body{
 
 #faceLeft {
     background-image: url("1Animate.png");
+    background-position: left center;
 }
 
 #faceRight {
     background-image: url("3Animate.png");
-    background-position: right top;
+    background-position: right center;
 }
 
 .text {
