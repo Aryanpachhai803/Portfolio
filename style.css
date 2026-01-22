@@ -238,7 +238,7 @@ body{
 
 
 /*--------------------------------Skills--------------------------*/
-h4{
+.skills h4{
     font-size: 35px;
     color: grey;
     text-align: center;
@@ -276,6 +276,36 @@ h4{
     color: rgb(28, 27, 27);
 }
  
+/*--------------------------------Social Media--------------------*/
+
+.social-media h4{
+    font-size: 35px;
+    color: grey;
+    text-align: center;
+}
+.media-logo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 89, 89);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    gap: 40px;
+    height: 100px;
+    width: 50%;
+    margin-left: 380px;
+    border-radius: 20px;
+}
+#facebook:hover{
+    color: blue;
+}
+#instagram:hover{
+    color: rgb(243, 52, 176);
+}
+#linkedin:hover{
+    color: rgb(72, 72, 245);
+}
+
 /*--------------------------------Footer--------------------------*/
 
 footer{
