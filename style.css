@@ -275,7 +275,21 @@ body{
 #github:hover{
     color: rgb(28, 27, 27);
 }
- 
+/*--------------------------------About---------------------------*/
+
+.about-section h4{
+    font-size: 35px;
+    color: grey;
+    text-align: center;
+}
+.about-section h5{
+    font-size: 18px;
+    color: black;
+}
+.about-section p{
+    font-size: 15px;
+    color: grey;
+}
 /*--------------------------------Social Media--------------------*/
 
 .social-media h4{
