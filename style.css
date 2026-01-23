@@ -235,8 +235,6 @@ body{
 }
 
 
-
-
 /*--------------------------------Skills--------------------------*/
 .skills h4{
     font-size: 35px;
@@ -275,6 +273,38 @@ body{
 #github:hover{
     color: rgb(28, 27, 27);
 }
+@media(max-width:880px){
+.skills-logo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 89, 89);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    gap: 20px;
+    height: 100px;
+    width: 50%;
+    margin-left: 200px;
+    border-radius: 20px;
+}
+}
+@media(min-width:480px){
+.skills-logo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 89, 89);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    gap: 15px;
+    height: 100px;
+    width: 90%;
+    margin-left: 30px;
+    border-radius: 20px;
+}  
+}
+
+
 /*--------------------------------About---------------------------*/
 
 .about-section h4{
@@ -318,6 +348,36 @@ body{
 }
 #linkedin:hover{
     color: rgb(72, 72, 245);
+}
+@media(max-width:880px){
+.media-logo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 89, 89);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    gap: 20px;
+    height: 100px;
+    width: 50%;
+    margin-left: 100px;
+    border-radius: 20px;
+}
+}
+@media(min-width:320px){
+.media-logo{
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(44, 89, 89);
+    box-shadow: 0 10px 10px rgba(0,0,0,0.5);
+    gap: 15px;
+    height: 100px;
+    width: 90%;
+    margin-left: 30px;
+    border-radius: 20px;
+}
 }
 
 /*--------------------------------Footer--------------------------*/
